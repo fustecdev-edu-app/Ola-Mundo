@@ -16,7 +16,7 @@
         var btn = document.querySelector(".fonestatus")
         var cont = 0
         btn.addEventListener("click", () =>{
-            
+            cont++ 
             if (cont==1) {
               btn.textContent="🔉"
               cont++  
@@ -27,7 +27,7 @@
             }
             if (cont==0) {
                btn.textContent="🔈"
-               cont++ 
+               
             }
             
         })
