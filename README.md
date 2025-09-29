@@ -30,5 +30,6 @@ Emoji	Descrição	Decimal &#...;	Hexadecimal &#x...;
 📚	Livros	&#128218;	&#x1F4DA;
 💻	Computador	&#128187;	&#x1F4BB;
 📱	Celular	&#128241;	&#x1F4F1;
+🔈
 
 
