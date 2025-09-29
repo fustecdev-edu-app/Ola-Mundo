@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Type" content="text/html;charset=ISO-8859-1">
+   
     <title>aula1 Git e GitHub</title>
 </head>
 <body>
@@ -12,26 +12,34 @@
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum sapiente perspiciatis unde veritatis ipsam ullam optio minima blanditiis magnam ratione consectetur suscipit, aperiam tenetur perferendis inventore facilis ducimus ut! Aliquid?</p>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam alias esse repudiandae voluptatibus facilis velit eveniet, repellat officia adipisci? Consequatur quos, doloremque earum ipsam cumque dolore aspernatur quisquam sapiente. Temporibus!</p>
      <p>  &#128525; &#128151; &#11088;&#11088;&#11088;&#x2B50;</p>
-     <button class="fonestatus">&#128264;</button>
+     <button class="fonestatus">&#128264;;</button>
      <script>
         var btn = document.querySelector(".fonestatus")
-        var cont = 0
+        var cont =1;
         btn.addEventListener("click", () =>{
              
-            if (cont=1) {
-              btn.textContent="&#128265;"
-              cont++  
-            }
-            if (cont=2) {
-             btn.textContent="&#128266;"
-             cont=0   
-            }
-            if (cont=0) {
-               btn.textContent="&#128264;"
-               cons++
-               
-            }
             
+            
+            if (cont==1) {
+               
+               btn.innerHTML="&#128265;"
+               
+                
+            }
+           if (cont==2) {
+              btn.innerHTML="&#128266;"
+             
+            }
+          
+            if (cont==3) {
+              btn.innerHTML="&#128264;"
+            
+             cont=0
+              
+            }
+             cont=cont+1
+         
+
         })
 
      </script>
